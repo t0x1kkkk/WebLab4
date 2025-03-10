@@ -1,0 +1,54 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Навігаційне меню */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Головний заголовок */
+h1 {
+    color: #333;
+}
+
+/* Карточки */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.card img {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Кнопки */
+.btn {
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-success:hover {
+    background-color: darkgreen;
+}
+.btn-danger:hover {
+    background-color: darkred;
+}
+.btn-warning:hover {
+    background-color: orange;
+}
+
+/* Футер */
+footer {
+    margin-top: 20px;
+}
+footer ul {
+    padding: 0;
+}
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
